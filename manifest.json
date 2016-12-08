@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+    "name": "BasketPopup for Salad.com.ua",
+    "version": "1.0",
+    "description": "BasketPopup for Salad.com.ua",
+    "content_scripts": [
+        {
+            "matches": [ "https://salad.com.ua/*", "http://salad.com.ua/*" ],
+            "js": [ "jquery.min.js", "popup.js" ]
+        }
+    ],
+    "icons": {
+        "16": "basket_small.png",
+        "32": "basket_small.png",
+        "64": "basket_small.png"
+    }
+}
